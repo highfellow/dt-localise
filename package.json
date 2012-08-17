@@ -13,6 +13,7 @@
   "dependencies": {
     "coffee-script": "~1.2.0"
   },
+  "main": "dt-localise.js",
   "keywords": ["localisation", "dynamictemplate"],
   "scripts": {
     "postinstall": "./configure.sh; ./build.sh"
