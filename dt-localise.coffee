@@ -50,7 +50,6 @@ class LocaliseAdapter extends EventEmitter
       @emit 'text', el, tr
     else
       @emit 'text', el, text
-  onother: (event, args...) =>
 
 # exports
 #
