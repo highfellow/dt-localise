@@ -1,0 +1,24 @@
+{
+  "author": "Andrew Baxter <andy@highfellow.org> (http://highfellow.org)",
+  "name": "dt-localise",
+  "description": "Adapter to localise dynamictemplate",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highfellow/dt-localise.git"
+  },
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {
+    "browserify": "~1.13.5",
+    "coffee-script": "~1.2.0"
+  },
+  "keywords": ["localisation", "dynamictemplate"],
+  "scripts": {
+    "postinstall": "./configure.sh; ./build.sh"
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {}
+}
